@@ -1,0 +1,23 @@
+{
+  "name": "demo-los-app",
+  "version": "1.0.0",
+  "description": "demo app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --port 4000 --strict-port --open",
+    "build": "esbuild src/index.jsx --bundle --outdir=dist/out.js",
+    "test": "test"
+  },
+  "author": "Ritesh Chaudhari <riteshschaudhari19@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@indussoft/indus-idfc-los": "^1.0.1",
+    "esbuild": "^0.25.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.2.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  }
+}
