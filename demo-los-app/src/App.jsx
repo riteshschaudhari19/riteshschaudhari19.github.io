@@ -6,6 +6,7 @@ function App(params) {
     return <>
     <Routes>
         <Route path='/' element={<Driver journey={'prospect'} />} />
+        <Route path='/index.html' element={<Driver journey={'prospect'} />} />
         <Route path='/fr-fr'>
             <Route path='charge-cards/apply/personal/:productSlug' element={<Driver journey={'prospect'} />}/>
         </Route>

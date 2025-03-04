@@ -25307,7 +25307,7 @@ Please change the parent <Route path="${parentPath}"> to <Route path="${parentPa
 
   // src/App.jsx
   function App2(params) {
-    return /* @__PURE__ */ import_react19.default.createElement(import_react19.default.Fragment, null, /* @__PURE__ */ import_react19.default.createElement(Routes, null, /* @__PURE__ */ import_react19.default.createElement(Route, { path: "/", element: /* @__PURE__ */ import_react19.default.createElement(Driver_default, { journey: "prospect" }) }), /* @__PURE__ */ import_react19.default.createElement(Route, { path: "/fr-fr" }, /* @__PURE__ */ import_react19.default.createElement(Route, { path: "charge-cards/apply/personal/:productSlug", element: /* @__PURE__ */ import_react19.default.createElement(Driver_default, { journey: "prospect" }) }))));
+    return /* @__PURE__ */ import_react19.default.createElement(import_react19.default.Fragment, null, /* @__PURE__ */ import_react19.default.createElement(Routes, null, /* @__PURE__ */ import_react19.default.createElement(Route, { path: "/", element: /* @__PURE__ */ import_react19.default.createElement(Driver_default, { journey: "prospect" }) }), /* @__PURE__ */ import_react19.default.createElement(Route, { path: "/index.html", element: /* @__PURE__ */ import_react19.default.createElement(Driver_default, { journey: "prospect" }) }), /* @__PURE__ */ import_react19.default.createElement(Route, { path: "/fr-fr" }, /* @__PURE__ */ import_react19.default.createElement(Route, { path: "charge-cards/apply/personal/:productSlug", element: /* @__PURE__ */ import_react19.default.createElement(Driver_default, { journey: "prospect" }) }))));
   }
   var App_default = App2;
 
